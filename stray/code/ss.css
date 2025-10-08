@@ -1,0 +1,437 @@
+
+ @font-face {
+    font-family: orbitron;
+    src: url(../Orbitron-VariableFont_wght.ttf);
+ }
+ a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(148, 241, 213);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 0, 132);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.stay {
+  background-image: url("../images/poesbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+.hi {
+    background-image: url("../images/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.stray2 {
+    background-image: url("../images/stray2.png");  
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+
+  .ding1{
+    position: absolute;
+    left: 77%;
+    width: 20%;
+    bottom: 90%;
+    background-color: #4ac1b7;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: orbitron;
+    
+  }
+
+  .straydev {
+    background-image: url("../images/straydevv.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+.button {
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    bottom: 20%;
+    background-color: #090a35;
+    color: white;
+    padding: 15px 32px;
+    opacity: 80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: orbitron;
+    
+  }
+
+  .ding2{
+    position: absolute;
+    left: 77%;
+    width: 20%;
+    bottom: 75%;
+    background-color: #4ac1b7;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: orbitron;
+    
+  }
+
+  .ding3{
+    position: absolute;
+    left: 77%;
+    width: 20%;
+    bottom: 60%;
+    background-color: #4ac1b7;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: orbitron;
+    
+  }
+
+
+
+  .button2 {
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    bottom: 10%;
+    background-color: #090a35;
+    color: white;
+    padding: 15px 32px;
+    opacity: 80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: orbitron;
+  }
+    .strayl {
+      position: absolute;
+      left: 44%;
+      width: 10%;
+      bottom: 78%;
+      background-color: #51bcc0;
+      color: white;
+      border-radius: 20px;
+      padding: 10px 20px;
+      opacity: 80%;
+      text-align: center;
+      display: inline-block;
+      font-size: 15px;
+      cursor: pointer;
+      font-family: orbitron;
+  
+  }
+
+  .stralb {
+    position: absolute;
+    left: 44%;
+    width: 10%;
+    bottom: 60%;
+    background-color: #51bcc0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    opacity: 80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: orbitron;
+
+  } 
+  .button3 {
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    bottom: 20%;
+    /*wat de neuk??? dit zou NIET moeten werken.*/
+    background-color: #090a35;
+    color: white;
+    padding: 15px 32px;
+    opacity: 80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: orbitron;
+    
+  }
+  
+  .button4 {
+    position: absolute;
+    left: 42.5%;
+    width: 15%;
+    bottom: 10%;
+    background-color: #090a35;
+    color: white;
+    padding: 10px 22px;
+    opacity: 80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: orbitron;
+    
+  }
+
+
+.info1 {
+  position: absolute;
+  left: 25%;
+  width: 70%;
+  bottom: 75%;
+  background-color: #020217;
+  color: white;
+  padding: 15px 32px;
+  opacity: 80%;
+  text-align: right;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: orbitron;
+  
+}
+
+.info2 {
+  position: absolute;
+  right: 25%;
+  width: 70%;
+  top: 30%;
+  background-color: #020217;
+  color: white;
+  padding: 15px 32px;
+  opacity: 80%;
+  text-align: left;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: orbitron;
+  
+}
+
+.info3 {
+  position: absolute;
+  left: 25%;
+  width: 70%;
+  top: 55%;
+  background-color: #020217;
+  color: white;
+  padding: 15px 32px;
+  opacity: 80%;
+  text-align: right;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: orbitron;
+  
+}
+.dev1 {
+  position: absolute;
+  right: 5%;
+  width: 30%;
+  bottom: 35%;
+  background-color: #020217;
+  color: white;
+  padding: 15px 32px;
+  opacity: 80%;
+  text-align: left;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: orbitron;
+}
+
+.dev2 {
+  position: absolute;
+  left: 5%;
+  width: 30%;
+  bottom: 35%;
+  background-color: #020217;
+  color: white;
+  padding: 15px 32px;
+  opacity: 80%;
+  text-align: LEFT;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: orbitron;
+}
+
+.b12 { 
+  position:absolute; 
+  top: 37%;
+  left: 45%;
+  width: 10%;
+  display: block;
+  
+} 
+
+.infoto1 { 
+  position:absolute; 
+  top: 55%;
+  left: 14%;
+  width: 10%;
+  display: block;
+}
+
+.infoto1:hover{
+  transform: rotate(360deg);
+  transition: transform 1s ease-in-out;
+}
+
+ 
+.infoto2 { 
+  position:absolute; 
+  top: 29%;
+  right: 14%;
+  width: 10%;
+  display: block;
+}
+
+  .infoto2:hover {
+  transform: rotate(360deg);
+  transition: transform 1s ease-in-out;
+}
+ 
+.infoto3{ 
+  position:absolute; 
+  top: 10%;
+  left: 14%;
+  width: 10%;
+  display: block;
+}
+.infoto3:hover{
+  transform: rotate(360deg);
+  transition: transform 1s ease-in-out;
+}
+
+.fotobutton {
+  border: none;
+  background: none;
+}
+.fotobutton img {
+  position:absolute; 
+  top: 43%;
+  left: 45%;
+  width: 10%;
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.poes img{
+position: absolute;
+left: 45%;
+width: 10%;
+}
+.poes2 img{
+  position: absolute;
+  left: 5%;
+  width: 10%;
+  }
+
+.devfoto1 {
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  width: 20%;
+  border-radius: 15%;
+}
+
+.devfoto2 {
+  position: absolute;
+  width: 20%;
+  top: 20%;
+  right: 12%;
+  border-radius: 15%;
+}
+
+.loading {
+  position: absolute;
+  left: 40%;
+  width: 20%;
+  bottom: 20%;
+  color: white;
+  padding: 15px 32px;
+  opacity: 80%;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  font-family: orbitron;
+  
+}
+
+.home {
+  position: absolute;
+  left: 61%;
+  width: 5%;
+  bottom: 21.5%;
+  background-color: #4ac1b7;
+  color: white;
+  opacity: 80%;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: orbitron;
+}
+.button6 {
+  position: absolute;
+  left: 40%;
+  width: 20%;
+  bottom: 10%;
+  background-color: #090a35;
+  color: white;
+  padding: 15px 32px;
+  opacity: 80%;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: orbitron;
+  
+}
+
+.square {
+  position:absolute;
+  z-index: -5;
+  left: 73%;
+  top: 10;
+  opacity: 80%;
+  
+} 
+
+#loadgif img{
+  position: absolute;
+  width: 15%;
+  top: 65%;
+  left: 60%;
+}

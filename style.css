@@ -1,0 +1,51 @@
+body {
+background-color : #0d040e;
+color : white;
+}
+
+
+.card {
+    background-color: #2f0035;
+    color: white;
+    width: 18rem;
+    border: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: 10px;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.line {
+    margin: 2.5%;
+    border-bottom: 5px solid white;
+}
+
+.selfie {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    border-radius: 25px;
+    float: left;
+}
+
+.introduction {
+    background-color: #2f0035;
+    margin: auto;
+    margin-top: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    
+}
+
+img {
+    display: block;
+    width: 50%;
+}
