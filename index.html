@@ -1,138 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alice's portfolio!</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="../style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
   <div class="sticky top">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark".>
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Alice Janssen</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">CV</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" .>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Alice Janssen</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">CV</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div style="float: right;">
+    <a  class="btn btn-secondary">en</a>
+    <a  class="btn btn-outline-secondary">nl</a>
+  </div>
+
+  <div class="d-flex flex-wrap gap-3 justify-content-center">
+
+
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col introduction">
+          <img class="selfie" src="../img/selfie.jpg" alt="" >
+          <div style="font-size: large; margin-top: 5%;">My name is Alice Janssen. I'm a student at Graphic Lyceum
+            Rotterdam. I'm in my second year of the Software Development course. I like to play guitar, play video games
+            and make pixel art!</div>
+        </div>
+        
+        <div class="col introduction" style="padding: 5px;">
+          <img class="icons" src="../img/icons.png" alt=""> <br>
+          <div style="font-size: large;">I have 2 years of experience with HTML, JavaScrip and CSS (frontend). I have
+            1.5 years of experience with php, phpMyAdmin and database development in general. I have experience with
+            unity and I have a unity certificate. I also recently started developing in Godot.</div>
+        </div>
+      </div>
     </div>
   </div>
-</nav>
-  </div>
-  <div>
-    <a style="float: right;" class="btn btn-secondary" >en</a><a style="float: right;" class="btn btn-outline-secondary">nl</a>
-  </div>
-
-<div class="d-flex flex-wrap gap-3 justify-content-center">
 
 
 
-<div class="container text-center">
-  <div class="row">
-    <div class="col introduction">
- <img class="selfie" src="../img/selfie.jpg" alt="" style="width: 25%;">
-  <div style="font-size: large; margin-top: 50px;">My name is Alice Janssen. I'm a student at Graphic Lyceum Rotterdam. I'm in my second year of the Software Development course. I like to play guitar, play video games and make pixel art!</div>
-    </div>
-    <div class="col introduction" style="padding: 5px;">
-         <img class="selfie" src="../img/icons.png" alt="" style="width: 15%; float: right;"> <br>
-  <div style="font-size: large;">I have 2 years of experience with HTML, JavaScrip and CSS (frontend). I have 1.5 years of experience with php, phpMyAdmin and database development in general. I have experience with unity and I have a unity certificate. I also recently started developing in Godot.</div>
-    </div>
-    </div>
-  </div>
-  </div>
+  <div class="line"></div>
 
+  <h1 class="text-center">Projects</h1>
 
-
-<div class="line"></div>
-  
-<div class="d-flex flex-wrap gap-3 justify-content-center">
+  <div class="d-flex flex-wrap gap-3 justify-content-center">
     <div class="card position-relative">
-    <img src="../img/makeathon.png" class="card-img-top" alt="...">
+      <img src="../img/makeathon.png" class="card-img-top" alt="...">
       <div class="card-body d-flex flex-column justify-content-between">
-      <h5 class="card-title">Make-A-Thon</h5>
-      <p class="card-text">A project me and a group of friends made for the yearly school make-a-thon, where every software development student could join. Our game was the winner of that year. It's a .exe.</p>
-      <a type="Download" href="../makeathon.zip" class="btn btn-secondary">Download</a>
+        <h5 class="card-title">Make-A-Thon</h5>
+        <p class="card-text">A project me and a group of friends made for the yearly school make-a-thon, where every
+          software development student could join. Our game was the winner of that year. It's a .exe.</p>
+        <a type="Download" href="../makeathon.zip" class="btn btn-secondary">Download</a>
+      </div>
     </div>
-      </div>
 
-  <div class="card position-relative">
-    <img src="../img/shootthemeteors.png" class="card-img-top" alt="...">
-     <div class="card-body d-flex flex-column justify-content-between">
-      <h5 class="card-title">Shoot The Meteors!</h5>
-      <p class="card-text">A project I made following a tutorial to learn Godot. I ended up making all the assets, except for the music myself and changed some features from the tutorial to fit better with them.</p>
-      <a href="https://rimimirin.itch.io/shoot-the-meteors" class="btn btn-secondary">Download</a>
+    <div class="card position-relative">
+      <img src="../img/shootthemeteors.png" class="card-img-top" alt="...">
+      <div class="card-body d-flex flex-column justify-content-between">
+        <h5 class="card-title">Shoot The Meteors!</h5>
+        <p class="card-text">A project I made following a tutorial to learn Godot. I ended up making all the assets,
+          except for the music myself and changed some features from the tutorial to fit better with them.</p>
+        <a href="https://rimimirin.itch.io/shoot-the-meteors" class="btn btn-secondary">Download</a>
+      </div>
+    </div>
+
+
+    <div class="card position-relative">
+      <img src="../img/XulllocharCasting.png" class="card-img-top" alt="...">
+      <div class="card-body d-flex flex-column justify-content-between">
+        <h5 class="card-title">Pixel Art</h5>
+        <p class="card-text">I have a passion for pixel art and I made this piece of my DnD character.</p>
+        <a href="#" class="btn btn-secondary">Not appplicable</a>
+      </div>
+    </div>
+
   </div>
-     </div>
+  <div class="d-flex flex-wrap gap-3 justify-content-center mt-3">
 
-
-  <div class="card position-relative">
-    <img src="../img/XulllocharCasting.png" class="card-img-top" alt="...">
-     <div class="card-body d-flex flex-column justify-content-between">
-      <h5 class="card-title">Pixel Art</h5>
-      <p class="card-text">I have a passion for pixel art and I made this piece of my DnD character.</p>
-      <a href="#" class="btn btn-secondary">Not appplicable</a>
+    <div class="card position-relative">
+      <img src="../img/foodfight.png" class="card-img-top" alt="...">
+      <div class="card-body d-flex flex-column justify-content-between">
+        <h5 class="card-title">Foodfight</h5>
+        <p class="card-text">A unity assignment for school. It's here mostly to show off I have knowlegde in Unity.</p>
+        <a href="https://github.com/JojosBizarreCoding/foodfight/releases/tag/release"
+          class="btn btn-secondary">Download</a>
       </div>
-     </div>
+    </div>
 
-</div>
-     <div class="d-flex flex-wrap gap-3 justify-content-center">
-
-  <div class="card position-relative">
-    <img src="../img/foodfight.png" class="card-img-top" alt="...">
-     <div class="card-body d-flex flex-column justify-content-between">
-      <h5 class="card-title">Foodfight</h5>
-      <p class="card-text">A unity assignment for school. It's here mostly to show off I have knowlegde in Unity.</p>
-      <a href="https://github.com/JojosBizarreCoding/foodfight/releases/tag/release" class="btn btn-secondary">Download</a>
+    <div class="card position-relative">
+      <img src="../img/pixel.png" class="card-img-top" alt="...">
+      <div class="card-body d-flex flex-column justify-content-between">
+        <h5 class="card-title">Museum The Pixel</h5>
+        <p class="card-text">My first ever website I made for school. I did this together with a classmate and I still
+          quite like it, even if not optimally put together.</p>
+        <a href="../stray/code/stray.html" class="btn btn-secondary">Visit</a>
       </div>
-     </div>
+    </div>
 
- <div class="card position-relative">
-    <img src="../img/pixel.png" class="card-img-top" alt="...">
-     <div class="card-body d-flex flex-column justify-content-between">
-      <h5 class="card-title">Museum The Pixel</h5>
-      <p class="card-text">My first ever website I made for school. I did this together with a classmate and I still quite like it, even if not optimally put together.</p>
-      <a href="../stray/code/stray.html" class="btn btn-secondary">Visit</a>
+    <div class="card position-relative">
+      <img src="../img/maison.png" class="card-img-top" alt="...">
+      <div class="card-body d-flex flex-column justify-content-between">
+        <h5 class="card-title">Maison Maison</h5>
+        <p class="card-text">A website for school I had fun making. The assignment was that we had to make a website for
+          a new album releasing for a band you enjoy. The name was picked out of a list based on the first letter from
+          your name.</p>
+        <a href="../myAlbum/code/" class="btn btn-secondary">Visit</a>
       </div>
-     </div>
-
-       <div class="card position-relative">
-    <img src="../img/maison.png" class="card-img-top" alt="...">
-     <div class="card-body d-flex flex-column justify-content-between">
-      <h5 class="card-title">Maison Maison</h5>
-      <p class="card-text">A website for school I had fun making. The assignment was that we had to make a website for a new album releasing for a band you enjoy. The name was picked out of a list based on the first letter from your name.</p>
-      <a href="../myAlbum/code/" class="btn btn-secondary">Visit</a>
-      </div>
-     </div>
-
-
- </div>
-
-
-
-
-
-
-
-
-
-
+    </div>
+  </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
