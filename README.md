@@ -1,7 +1,7 @@
 To do:
-- [ ] Add contact info
-- [ ] Add Dutch translation
-- [ ] Add navbar function
-- [ ] Add some responsiveness
-- [ ] change background
-- [ ] add more horizontal space between cards
+- [ x ] Add contact info
+- [ x ] Add Dutch translation
+- [ x ] Add navbar function
+- [ x ] Add some responsiveness
+- [  ] change background
+- [  ] add more horizontal space between cards
