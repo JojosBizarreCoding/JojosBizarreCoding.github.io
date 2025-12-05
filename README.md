@@ -3,5 +3,5 @@ To do:
 - [ x ] Add Dutch translation
 - [ x ] Add navbar function
 - [ x ] Add some responsiveness
-- [ x ] change background
-- [ x ] add more horizontal space between cards
+- [  ] change background
+- [  ] add more horizontal space between cards
