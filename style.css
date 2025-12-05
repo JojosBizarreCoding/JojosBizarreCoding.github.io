@@ -24,6 +24,15 @@ color : white;
     border-bottom: 5px solid white;
 }
 
+.lang {
+    float: right;
+}
+
+.intro {
+    font-size: large; 
+    margin-top: 5px;
+}
+
 .selfie {
     display: block;
     margin: auto;
@@ -66,3 +75,24 @@ img {
        display: flex;
        flex-direction: column;
   }
+
+  @media screen and (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+
+    .lang {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .langLine {
+    margin: 2.5%;
+    border-bottom: 5px solid white;
+    }
+
+    img {
+        width: 80%;
+    }
+}

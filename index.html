@@ -17,7 +17,7 @@
 <body>
   <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" data-bs-theme="dark" .>
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Alice Janssen</a>
+      <name class="navbar-brand">Alice Janssen</name>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,10 +40,12 @@
       </div>
     </div>
   </nav>
-  <div style="float: right;">
+  <div class="lang">
     <a class="btn btn-secondary">en</a>
     <a class="btn btn-outline-secondary">nl</a>
   </div>
+
+  <div class="langLine"></div>
 
   <div class="d-flex flex-wrap gap-3 justify-content-center">
 
@@ -53,16 +55,22 @@
       <div class="row">
         <div class="col introduction">
           <img class="selfie" src="../img/selfie.jpg" alt="">
-          <div style="font-size: large; margin-top: 5%;">My name is Alice Janssen. I'm a student at Graphic Lyceum
+          <div class="intro"><p>
+            My name is Alice Janssen. I'm a student at Graphic Lyceum
             Rotterdam. I'm in my second year of the Software Development course. I like to play guitar, play video games
-            and make pixel art!</div>
+            and make pixel art. I would call myself an authentic programmer. 
+            I prefer to code without AI, so that I have a solid basis to pull from. I enjoy working on functionality most.
+          </p> 
+        </div>
         </div>
 
-        <div class="col introduction" style="padding: 5px;">
-          <img class="icons" src="../img/icons.png" alt=""> <br>
-          <div style="font-size: large;">I have 2 years of experience with HTML, JavaScrip and CSS (frontend). I have
+        <div class="col introduction">
+          <img class="icons" src="../img/icons.png" alt="">
+          <div class="intro">
+            <p>I have 2 years of experience with HTML, JavaScrip and CSS (frontend). I have
             1.5 years of experience with php, phpMyAdmin and database development in general. I have experience with
-            unity and I have a unity certificate. I also recently started developing in Godot.</div>
+            unity and I have a unity certificate. I also recently started developing in Godot.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -93,7 +101,7 @@
         <h5 class="card-title">Shoot The Meteors!</h5>
         <p class="card-text">A project I made following a tutorial to learn Godot. I ended up making all the assets,
           except for the music myself and changed some features from the tutorial to fit better with them.</p>
-        <a href="https://rimimirin.itch.io/shoot-the-meteors" class="btn btn-secondary">Download</a>
+        <a href="https://github.com/JojosBizarreCoding/ShootTheMeteors" class="btn btn-secondary">More info</a>
       </div>
     </div>
 
@@ -115,7 +123,7 @@
         <h5 class="card-title">Foodfight</h5>
         <p class="card-text">A unity assignment for school. It's here mostly to show off I have knowlegde in Unity.</p>
         <a href="https://github.com/JojosBizarreCoding/foodfight/releases/tag/release"
-          class="btn btn-secondary">Download</a>
+          class="btn btn-secondary">More info</a>
       </div>
     </div>
 
