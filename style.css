@@ -1,6 +1,6 @@
 body {
-background-color : #0d040e;
-color : white;
+    background-color: #0d040e;
+    color: white;
 }
 
 .card {
@@ -29,7 +29,7 @@ color : white;
 }
 
 .intro {
-    font-size: large; 
+    font-size: large;
     margin-top: 5px;
 }
 
@@ -52,12 +52,12 @@ color : white;
     border-radius: 10px;
     border-width: 5px;
 
-    
+
 }
 
 .icons {
-width: 20%; 
-float: right;
+    width: 20%;
+    float: right;
 }
 
 img {
@@ -69,16 +69,32 @@ img {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display:         flex;
-  }
-  .row > [class*='col-'] {
-       display: flex;
-       flex-direction: column;
-  }
+    display: flex;
+}
 
-  @media screen and (max-width: 768px) {
+.row>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.align {
+    text-align: center;
+}
+
+.logo {
+    display: inline;
+    width: 5%;
+    margin: 10px;
+}
+
+.zebra {
+    background-color: #1a001f;
+}
+
+
+@media screen and (max-width: 768px) {
     .row {
-      flex-direction: column;
+        flex-direction: column;
     }
 
     .lang {
@@ -88,11 +104,15 @@ img {
     }
 
     .langLine {
-    margin: 2.5%;
-    border-bottom: 5px solid white;
+        margin: 2.5%;
+        border-bottom: 5px solid white;
     }
 
     img {
         width: 80%;
+    }
+
+    .logo {
+        width: 20%;
     }
 }
