@@ -1,0 +1,33 @@
+{
+    "projects": [
+        {
+            "img": "./img/shootthemeteors.png",
+            "title": "Portfolio Website",
+            "description": "My personal portfolio website with information about me, my skills and my projects.",
+            "link": "",
+            "tags": ["HTML", "CSS", "Bootstrap", "JavaScript"],
+            "button": "Hi chat"
+        },
+        {
+            "img": "../media/img/project/gooberos.jpg",
+            "title": "Goober OS",
+            "description": "A linux like \"Web OS\" command line operating system made in JavaScript, HTML and CSS for a make-a-thon.",
+            "link": "",
+            "tags": ["JavaScript", "HTML", "CSS"]
+        },
+        {
+            "img": "../media/img/project/colorcat.png",
+            "title": "Color Cat",
+            "description": "A command line script made in python that displays formatted text in colors in the terminal.",
+            "link": "",
+            "tags": ["Python", "CLI", "Terminal"]
+        },
+        {
+            "img": "../media/img/project/mtm.png",
+            "title": "Mission to Mars",
+            "description": "A concept for an inflight entertainment system for spaceflights to mars, I made this with a team of classmates for a school project.",
+            "link": "",
+            "tags": ["JavaScript", "HTML", "CSS"]
+        }
+    ]
+}
