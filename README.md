@@ -4,4 +4,4 @@ To do:
 - [ x ] Add navbar function
 - [ x ] Add some responsiveness
 - [  ] change background
-- [  ] add more horizontal space between cards
+- [ X ] add more horizontal space between cards
