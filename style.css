@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Silkscreen;
-  src: url("fonts/Silkscreen/Silkscreen-Regular.ttf");
+    font-family: Silkscreen;
+    src: url("fonts/Silkscreen/Silkscreen-Regular.ttf");
 }
 
 body {
@@ -9,7 +9,8 @@ body {
 }
 
 .header {
-    font-family: Silkscreen;;
+    font-family: Silkscreen;
+    ;
 }
 
 .card {
@@ -114,13 +115,21 @@ img {
     border-color: #063500 !important;
 }
 
+.langMobile {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .row {
         flex-direction: column;
     }
 
     .lang {
-        float: none;
+        display: none;
+    }
+
+    .langMobile {
+        display: block;
         text-align: center;
         margin-top: 10px;
     }
