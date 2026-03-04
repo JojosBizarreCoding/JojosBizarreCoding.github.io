@@ -1,6 +1,15 @@
+@font-face {
+  font-family: Silkscreen;
+  src: url("fonts/Silkscreen/Silkscreen-Regular.ttf");
+}
+
 body {
     background-color: #0d040e;
     color: white;
+}
+
+.header {
+    font-family: Silkscreen;;
 }
 
 .card {
@@ -26,6 +35,7 @@ body {
 
 .lang {
     float: right;
+    margin-top: 5px;
 }
 
 .intro {
@@ -51,7 +61,6 @@ body {
     border: solid;
     border-radius: 10px;
     border-width: 5px;
-
 
 }
 
@@ -91,6 +100,19 @@ img {
     background-color: #1a001f;
 }
 
+.navbar {
+    font-family: Silkscreen;
+    background-color: #2f0035 !important;
+}
+
+.btn-secondary {
+    background-color: #063500 !important;
+    border-color: #063500 !important;
+}
+
+.btn-outline-secondary {
+    border-color: #063500 !important;
+}
 
 @media screen and (max-width: 768px) {
     .row {
